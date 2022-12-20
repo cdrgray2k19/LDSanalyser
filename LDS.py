@@ -4,7 +4,8 @@ import numpy as np
 
 
 
-data = pd.read_csv("../LDSAnalyser/Pearson Edexcel GCE AS and AL Mathematics data set (5).csv",sep='delimiter', header=None, encoding = "ISO-8859-1")
+data = pd.read_csv("/Users/charliegray/Library/Mobile Documents/com~apple~CloudDocs/programming/LDSAnalyser/Pearson Edexcel GCE AS and AL Mathematics data set (5).csv",sep='delimiter', header=None, encoding = "ISO-8859-1")
+
 
 print(data[0][2918])
 
